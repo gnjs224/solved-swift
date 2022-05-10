@@ -6,11 +6,33 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		782F4E8D282A8DAA00069E8D /* 신고 결과 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신고 결과 받기.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		782F4E86282A8D6A00069E8D = {
 			isa = PBXGroup;
 			children = (
+				782F4E8E282A8DAF00069E8D /* 프로그래머스 */,
 			);
+			sourceTree = "<group>";
+		};
+		782F4E8E282A8DAF00069E8D /* 프로그래머스 */ = {
+			isa = PBXGroup;
+			children = (
+				782F4E8F282A8DBB00069E8D /* Lv. 1 */,
+			);
+			name = "프로그래머스";
+			path = "프로그래머스";
+			sourceTree = "<group>";
+		};
+		782F4E8F282A8DBB00069E8D /* Lv. 1 */ = {
+			isa = PBXGroup;
+			children = (
+				782F4E8D282A8DAA00069E8D /* 신고 결과 받기.swift */,
+			);
+			path = "Lv. 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
