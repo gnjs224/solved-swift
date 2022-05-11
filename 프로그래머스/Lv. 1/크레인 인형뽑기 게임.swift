@@ -3,7 +3,7 @@ import Foundation
 func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
     var new_board: [[Int]] = [[Int]]() // 새로운 보드 생성
     var s: [Int] = [Int]() //바구니
-    var answer: Int =
+    var answer: Int = 0
     
     /*  기존 보드 (배열)
         0 0 0 0 0
